@@ -2,7 +2,9 @@
   "name": "oracle-apex-toolkit",
   "version": "0.1.0",
   "description": "Reusable patterns for integrating Oracle APEX 20.x applications with Claude Code. Session bootstrap, wwv_flow.accept form submission, and APEX report PDF export.",
-  "author": "Allan Rosales",
+  "author": {
+    "name": "Allan Rosales"
+  },
   "homepage": "https://github.com/TecnologiaIG/oracle-apex-toolkit",
   "license": "MIT",
   "keywords": [
@@ -11,12 +13,5 @@
     "oracle-apex",
     "enterprise",
     "automation"
-  ],
-  "components": {
-    "skills": [
-      "skills/apex-session-bootstrap",
-      "skills/apex-form-submit",
-      "skills/apex-export-pdf"
-    ]
-  }
+  ]
 }
