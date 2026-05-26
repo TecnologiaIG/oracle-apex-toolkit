@@ -1,0 +1,14 @@
+{
+  "name": "oracle-apex-toolkit",
+  "description": "Reusable patterns for Oracle APEX 20.x automation",
+  "owner": {
+    "name": "Allan Rosales"
+  },
+  "plugins": [
+    {
+      "name": "oracle-apex-toolkit",
+      "source": ".",
+      "description": "Session bootstrap, form submit (wwv_flow.accept), PDF export"
+    }
+  ]
+}
